@@ -1,0 +1,26 @@
+# Jow OS v6
+
+    An independent 64-bit operating system written from scratch in
+    freestanding C and NASM assembly.
+
+    Shipped with **JowVM**—my custom standalone `/dev/kvm` hypervisor
+    modeled on real bare-metal PC hardware (Intel Core i5-4590 / Q87M-E) with
+    dirty-RAM poisoning, 1080p SDL2 display, and xHCI USB 3.0 stack.
+
+    ## Downloads & Pre-Releases
+
+    Pre-compiled binary packages and bootable ISOs are available under
+    [Releases](https://github.com/jowettarchie3/jowOS_v6/releases):
+    - **`jow-os-v6-jowvm-linux-x86_64.tar.gz`**: Standalone portable bundle.
+    Run `./run-jowos.sh` to boot into Jow OS in under 1 second.
+    - **`jwt_os_v4.iso`**: Bootable hybrid image for bare-metal testing
+    (non-destructive RAMDisk mode).
+
+    ## Notice & Rights
+
+    Copyright (c) 2026 Archie / Architech Systems. All rights reserved.
+
+    This repository hosts official release distributions and documentation
+    for Jow OS. Unauthorized redistribution, modification, or decompilation
+    of distributed binaries is strictly prohibited without prior written
+    consent.
